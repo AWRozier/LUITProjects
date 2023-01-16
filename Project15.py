@@ -9,7 +9,7 @@ import boto3
 sqs = boto3.resource('sqs')
 
 # Queue will be created & output will returns an SQS Queue instance
-queue = sqs.create_queue(QueueName='1stQueue')
+queue = sqs.create_queue(QueueName='Lex')
 
 print(queue.url)
 
